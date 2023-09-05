@@ -1,0 +1,50 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* common style */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background-color: #E55473;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    padding: 20px 43px;
+}
+/* heder style added */
+.header{
+    background-color: #E554731A;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 97px;
+}
+.header-inner{
+    width: 45%;
+}
+.header-inner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-title{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    margin-bottom: 32px;
+}
